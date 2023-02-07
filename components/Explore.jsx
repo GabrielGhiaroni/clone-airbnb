@@ -12,7 +12,7 @@ const Explore = () => {
             {ExploreInfo.map((item, index) => {
                 const {src, nome, distancia} = item;
                 return (
-                    <li className='flex flex-col items-center pb-10 last:pb-4'>
+                    <li key={index} className='flex flex-col items-center pb-10 last:pb-4'>
                       <div className='hover:scale-110 hover:cursor-pointer text-center transition duration-200'>
                         <img src={src} alt="imagem destino" className='w-[150px] md:w-[200px] mb-2 rounded-lg'/>
                         <h1 className='text-lg'>{nome}</h1>

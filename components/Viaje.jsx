@@ -11,7 +11,7 @@ const Viaje = () => {
               ViajeParaOndeQuiserInfo.map((item, index) => {
                 const {src, titulo} = item;
                 return (
-                  <li className='flex flex-col items-center pb-10 last:pb-4'>
+                  <li key={index} className='flex flex-col items-center pb-10 last:pb-4'>
                     <div className='hover:scale-110 hover:cursor-pointer text-center transition duration-200'>
                       <img src={src} alt="imagem-destino" className='w-[250px] md:w-[300px] lg:w-[350px] mb-2 rounded-lg'/>
                       <h1 className='text-lg'>{titulo}</h1>
