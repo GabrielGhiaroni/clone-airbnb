@@ -61,3 +61,25 @@ export const ExploreInfo = [{
         distancia: "4.5 horas"
     }
 ];
+
+export const ViajeParaOndeQuiserInfo = [{
+        src: "https://links.papareact.com/2io",
+        titulo: "Montanhas e natureza"
+    },
+    {
+        src: "https://links.papareact.com/q7j",
+        titulo: "Tropical e praias"
+    },
+    {
+        src: "https://links.papareact.com/s03",
+        titulo: "Microcasas"
+    },
+    {
+        src: "https://links.papareact.com/8ix",
+        titulo: "Pet-friendly"
+    }
+];
+
+export const ViajeParaOndeQuiserTitulo = {
+    titulo: "Viaje para onde quiser"
+}
