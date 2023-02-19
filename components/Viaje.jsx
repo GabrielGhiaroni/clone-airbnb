@@ -5,7 +5,7 @@ const Viaje = () => {
   const {titulo} = ViajeParaOndeQuiserTitulo;
   return (
     <section>
-        <h2 className='text-2xl md:text-4xl font-semibold pt-4 pb-6 md:pt-10 md:pb-14 text-center'>{titulo}</h2>
+        <h2 className='text-2xl md:text-4xl font-semibold py-6 md:pt-10 md:pb-14 text-center'>{titulo}</h2>
           <ul className='lg:flex md:grid md:grid-cols-2 md:gap-x-6 md:justify-center lg:space-x-8'>
             {
               ViajeParaOndeQuiserInfo.map((item, index) => {

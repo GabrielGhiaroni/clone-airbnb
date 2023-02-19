@@ -5,8 +5,11 @@ import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import Explore from '../components/Explore';
 import Viaje from '../components/Viaje';
+import LargeCard from '../components/LargeCard';
+import { LargeCardInfo } from '../data';
 
 const Home: NextPage = ({}) => {
+  const {img, titulo, descricao, botao} = LargeCardInfo;
   return (
     <div className="">
       <Head>
@@ -19,6 +22,12 @@ const Home: NextPage = ({}) => {
       <Explore />
       <Viaje />
       </main>
+      <LargeCard
+        img={img}
+        titulo={titulo}
+        descricao={descricao}
+        botao={botao}
+      />
       <div style={{"height": "1000px"}}></div>
       <Footer />
     </div>

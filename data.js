@@ -82,4 +82,11 @@ export const ViajeParaOndeQuiserInfo = [{
 
 export const ViajeParaOndeQuiserTitulo = {
     titulo: "Viaje para onde quiser"
-}
+};
+
+export const LargeCardInfo = {
+    img: 'https://links.papareact.com/4cj',
+    titulo: 'Descubra seu novo local favorito',
+    descricao: 'Imóveis selecionados pelo Airbnb',
+    botao: 'Ver opções'
+};

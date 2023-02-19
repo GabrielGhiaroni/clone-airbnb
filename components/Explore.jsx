@@ -6,7 +6,6 @@ const Explore = () => {
     const {titulo} = MainInfo;
   return (
     <section>
-        <section>
           <h2 className='text-2xl md:text-4xl font-semibold py-6 md:pt-10 md:pb-14 text-center'>{titulo}</h2>
             <ul className='md:grid md:grid-cols-2 xl:grid-cols-4'>
             {ExploreInfo.map((item, index) => {
@@ -22,7 +21,6 @@ const Explore = () => {
                 )
             })}
             </ul>
-        </section>
     </section>
   )
 }
