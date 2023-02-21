@@ -3,13 +3,39 @@ export const NavbarInfo = {
     anfitriao: "Torne-se um anfitrião",
 };
 
-export const FooterInfo = {
-    txtIcone1: 'Explorar',
-    txtIcone2: 'Favoritos',
-    txtIcone3: 'Viagens',
-    txtIcone4: 'Mensagens',
-    txtIcone5: 'Perfil'
-};
+export const FooterInfo = [{
+        titulo: "Sobre",
+        desc1: "Sobre o Airbnb",
+        desc2: "Novidades",
+        desc3: "Newsletter",
+        desc4: "Airbnb Plus",
+        desc5: "Airbnb Luxo",
+    },
+    {
+        titulo: "Comunidade",
+        desc1: "O que é",
+        desc2: "Vantagens exclusivas",
+        desc3: "Torne-se membro",
+        desc4: "Dúvidas da comunidade",
+        desc5: "Grupo exclusivo",
+    },
+    {
+        titulo: "Seja um anfitrião",
+        desc1: "Como se tornar um",
+        desc2: "Por que se tornar?",
+        desc3: "Requisitos mínimos",
+        desc4: "Dicas de especialistas",
+        desc5: "Transforme seu espaço",
+    },
+    {
+        titulo: "Suporte",
+        desc1: "Fale conosco",
+        desc2: "Dúvidas frequentes",
+        desc3: "Passo a passo",
+        desc4: "Contato de emergência",
+        desc5: "Chat 24h"
+    }
+];
 
 export const BannerInfo = {
     txt: 'Ainda em dúvida?',

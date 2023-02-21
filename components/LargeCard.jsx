@@ -2,8 +2,8 @@ import React from 'react';
 
 const LargeCard = ({img, titulo, descricao, botao}) => {
   return (
-    <section className='max-w-7xl relative py-6 md:pt-10 md:pb-14 cursor-pointer'>
-        <div className='relative mx-auto flex justify-center'>
+    <section className='max-w-7xl relative py-6 md:pt-10 md:pb-14 cursor-pointer mx-auto flex justify-center'>
+        <div className='relative'>
             <img src={img} alt="card" className='h-60 w-[350px] md:w-[750px] lg:w-[900px] rounded-2xl object-cover' />
         </div>
         <div className='absolute top-10 min-[360px]:left-6 min-[360px]:top-11 min-[365px]:left-8 min-[390px]:left-10 min-[412px]:left-12 md:top-16 md:left-16 lg:left-24 xl:left-60'>
