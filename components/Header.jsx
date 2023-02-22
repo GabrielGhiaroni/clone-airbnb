@@ -44,6 +44,7 @@ const Header = () => {
                     local: searchBar
                 }
             });
+            setSearchBar('');
         };
     };
 
@@ -90,7 +91,7 @@ const Header = () => {
                         query: {
                             local: searchBar
                         }
-                    })} className='flex-grow bg-red-400 text-white rounded-tr-lg rounded-br-lg'>Buscar</button>
+                    })} className='flex-grow bg-red-400 text-white rounded-tr-lg rounded-br-lg'><span onClick={() => setSearchBar('')}>Buscar</span></button>
                 </div>
             </div>
         )}
