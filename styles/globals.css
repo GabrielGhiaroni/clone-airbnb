@@ -7,7 +7,7 @@
 @layer components {
 
     .filtros {
-        @apply px-4 py-2 border rounded-full cursor-pointer
+        @apply border rounded-full cursor-pointer
     }
 
     .filtros:hover {

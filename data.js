@@ -117,3 +117,12 @@ export const LargeCardInfo = {
     descricao: 'Imóveis selecionados pelo Airbnb',
     botao: 'Ver opções'
 };
+
+export const BuscaInfo = {
+    titulo: "",
+    subtitulo: "",
+    filtroUm: "Cancelamento flexível",
+    filtroDois: "Tipo",
+    filtroTres: "Preço",
+    filtroQuatro: "Quartos"
+};
