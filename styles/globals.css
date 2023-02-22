@@ -3,3 +3,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    .filtros {
+        @apply px-4 py-2 border rounded-full cursor-pointer
+    }
+
+    .filtros:hover {
+        @apply shadow-lg
+    }
+
+    .filtros:active {
+        @apply scale-95 bg-gray-100 transition transform duration-100 ease-out
+    }
+}

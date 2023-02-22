@@ -1,6 +1,7 @@
 export const NavbarInfo = {
     placeholder: "Busque por um local",
     anfitriao: "Torne-se um anfitrião",
+    numeroConvidados: "Número de convidados"
 };
 
 export const FooterInfo = [{
