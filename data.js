@@ -119,7 +119,7 @@ export const LargeCardInfo = {
 };
 
 export const BuscaInfo = {
-    titulo: "",
+    titulo: "Locais em ",
     subtitulo: "",
     filtroUm: "Cancelamento flexível",
     filtroDois: "Tipo",

@@ -8,7 +8,7 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 import { DateRangePicker } from 'react-date-range';
 import { useRouter } from 'next/router.js';
 
-const Header = () => {
+const Header = ({placeholderBusca}) => {
     const {placeholder, anfitriao, numeroConvidados} = NavbarInfo;
     const [searchBar, setSearchBar] = useState('');
     const [startDate, setStartDate] = useState(new Date());
@@ -58,7 +58,7 @@ const Header = () => {
             />
         </div>
         <div className='flex mx-auto w-[300px] md:w-full items-center justify-between border-2 rounded-full py-2 shadow-sm'>
-            <input value={searchBar} onKeyPress={handleKeyPress} onChange={(e) => setSearchBar(e.target.value)} type="text" placeholder={placeholder} className='w-full px-10 md:px-5 bg-transparent outline-none text-gray-600 text-sm placeholder-gray-400'/>
+            <input value={searchBar} onKeyPress={handleKeyPress} onChange={(e) => setSearchBar(e.target.value)} type="text" placeholder={placeholderBusca || placeholder} className='w-full px-10 md:px-5 bg-transparent outline-none text-gray-600 text-sm placeholder-gray-400'/>
             <AiOutlineSearch onClick={buscarLocal} className='inline mx-4 h-8 bg-red-400 text-white rounded-full w-10 p-2 cursor-pointer'/>
         </div>
 
