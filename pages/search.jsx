@@ -7,8 +7,7 @@ import { listaLocais } from '../data';
 import Image from 'next/image';
 import {AiTwotoneStar, AiOutlineHeart} from 'react-icons/ai';
 
-const Search = ({dados}) => {
-    console.log(dados);
+const Search = () => {
     const {subtitulo, titulo, filtroUm, filtroDois, filtroTres, filtroQuatro} = BuscaInfo;
     const router = useRouter();
     const {local} = router.query;
@@ -29,8 +28,8 @@ const Search = ({dados}) => {
                     </ul>
                     <div>
                         {
-                            listaLocais.map((index, item) => {
-                                const {src, titulo, subtitulo, descricao, avaliacao, preco} = index;
+                            listaLocais.map((item, index) => {
+                                const {src, titulo, subtitulo, descricao, avaliacao, preco} = item;
                                 return (
                                         <div className=' md:flex mb-4 cursor-pointer hover:shadow-lg p-4 border-b w-full'>
                                             <div className='relative h-40 w-full md:52 md:w-80 flex-shrink-0'>
@@ -72,13 +71,3 @@ const Search = ({dados}) => {
 }
 
 export default Search;
-
-export async function getServerSideProps() {
-    const searchResults = await fetch("https://links.papareact.com/isz").then(res => res.json());
-    const dados = searchResults.json(); 
-    return {
-        props: {
-            dados
-        }
-    }
-};
