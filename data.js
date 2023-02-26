@@ -120,9 +120,67 @@ export const LargeCardInfo = {
 
 export const BuscaInfo = {
     titulo: "Locais em ",
-    subtitulo: "",
+    subtitulo: "7 resultados disponíveis",
     filtroUm: "Cancelamento flexível",
     filtroDois: "Tipo",
     filtroTres: "Preço",
     filtroQuatro: "Quartos"
 };
+
+export const listaLocais = [{
+        src: "https://links.papareact.com/xqj",
+        titulo: "Quarto privado no centro",
+        subtitulo: "Extremamente bem localizado",
+        descricao: "quarto privado ⋅ suíte ⋅ cozinha",
+        avaliacao: "4.73",
+        preco: Math.floor((Math.random() * 750) + 1)
+    },
+    {
+        src: "https://links.papareact.com/hz2",
+        titulo: "3 quartos com suíte",
+        subtitulo: "Hospede-se no centro da cidade",
+        descricao: "3 quartos ⋅ suíte ⋅ pet friendly",
+        avaliacao: "4.92",
+        preco: Math.floor((Math.random() * 750) + 1)
+    },
+    {
+        src: "https://links.papareact.com/uz7",
+        titulo: "Studio de luxo com banheira",
+        subtitulo: "Ideal para quem busca conforto",
+        descricao: "1 quarto ⋅ varanda gourmet ⋅ banheira",
+        avaliacao: "4.88",
+        preco: Math.floor((Math.random() * 750) + 1)
+    },
+    {
+        src: "https://links.papareact.com/6as",
+        titulo: "Apartamento a 5 min do metrô",
+        subtitulo: "Studios para nômades digitais",
+        descricao: "1 quarto ⋅ banheiro privativo",
+        avaliacao: "4.12",
+        preco: Math.floor((Math.random() * 750) + 1)
+    },
+    {
+        src: "https://links.papareact.com/xhc",
+        titulo: "Casa moderna no centro",
+        subtitulo: "Próximo aos melhores bares e restaurantes",
+        descricao: "3 quarto ⋅ 2 suítes ⋅ jardim privativo",
+        avaliacao: "4.90",
+        preco: Math.floor((Math.random() * 750) + 1)
+    },
+    {
+        src: "https://links.papareact.com/pro",
+        titulo: "Quarto bem localizado",
+        subtitulo: "O melhor custo benefício",
+        descricao: "cama de casal ⋅ banheiro compartilhado",
+        avaliacao: "4.55",
+        preco: Math.floor((Math.random() * 750) + 1)
+    },
+    {
+        src: "https://links.papareact.com/8w2",
+        titulo: "Flex Studios",
+        subtitulo: "Ideal para curtas estadias",
+        descricao: "1 banheiro ⋅ varanda ⋅ ar condicionado",
+        avaliacao: "4.98",
+        preco: Math.floor((Math.random() * 750) + 1)
+    }
+];
