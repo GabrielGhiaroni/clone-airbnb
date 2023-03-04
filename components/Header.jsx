@@ -8,7 +8,7 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 import { DateRangePicker } from 'react-date-range';
 import { useRouter } from 'next/router.js';
 
-const Header = ({placeholderBusca}) => {
+const Header = () => {
     const {placeholder, anfitriao, numeroConvidados} = NavbarInfo;
     const [searchBar, setSearchBar] = useState('');
     const [startDate, setStartDate] = useState(new Date());
